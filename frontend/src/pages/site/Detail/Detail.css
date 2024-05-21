@@ -1,0 +1,41 @@
+
+.details{
+  height: 560px;
+ 
+  
+  img{
+      width: 200px;
+      height: 200px;
+  }
+  .container{
+      gap: 80px;
+      display: flex;
+      align-items: center;
+      padding: 100px 0;
+     
+  }
+  .right-detail{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    h2{
+      color: rgb(170, 101, 234);
+      font-size: 38px;
+    }
+    h4{
+      color: rgb(136, 46, 219);
+      font-size: 32px;
+    }
+    p{
+      color: rgb(187, 123, 246);
+      font-size: 24px;
+    }
+  }
+  .left-detail{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+  }
+}

@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+   
+}
+.header{
+    width: 1200px;
+    position: fixed;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: WHITE;
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.center-header ul{
+    display: flex;
+    gap: 30px;
+
+}
+.right-header{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+.section1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-image: url("https://preview.colorlib.com/theme/course/images/slider_background.jpg.webp");
+ 
+}
+
+ .section1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.section1 .container h2{
+    margin-top: 310px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 68px;
+}
+.online{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    gap: 50px;
+}
+.online .onl{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 40px 60px;
+}
+.onl i{
+    font-size: 44px;
+    color: yellow;
+}

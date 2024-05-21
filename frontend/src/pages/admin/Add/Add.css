@@ -1,0 +1,32 @@
+form{
+  background-color: rgb(177, 133, 167);
+  width: 400px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+margin-top: 50px;
+padding: 20px 50px;
+border-radius: 8px;
+gap: 8px;
+}
+input{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border-radius: 5px;
+  padding: 6px;
+  
+}
+.btn{
+  background-color: grey;
+  background-color:  green;
+  width: 250px;
+
+
+}
+#category{
+  width: 350px;
+  padding: 6px;
+  border-radius: 5px;
+}

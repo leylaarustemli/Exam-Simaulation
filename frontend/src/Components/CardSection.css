@@ -1,0 +1,59 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 55px;
+    margin-top: 28px;
+}
+.card{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column
+    ;
+    gap: 20px;
+ 
+    justify-content: center;
+}
+.card img{
+    width: 350px;
+}
+.card-footer img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.card-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cardsection .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+.card-buttons{
+    display: flex;
+    gap: 30px;
+}
+#basket{
+   background-color: rgb(76, 128, 24);
+   border-radius: 5px;
+   padding: 6px 13px;
+   color: white;
+   border: none;
+}
+
+#detail{
+    background-color: rgb(92, 17, 82);
+   border-radius: 5px;
+   padding: 6px 13px;
+   color: white;
+   border: none;
+}
+.card-footer .dollar{
+    background-color: #ffb606;
+    padding: 6px 10px;
+    color: white;
+}
