@@ -16,13 +16,13 @@ function App() {
     const[basket,setBasket]=useState([])
     useEffect(()=>{
         axios.get("http://localhost:8080/api/products").then(res=>(setData([...res.data])))
-    },[])
+    },[data])
 
   function addToBasket(id){
     let basketItem=basket.find(item=>item._id==id)
     if(basketItem){
         basketItem.count++
-        basketItem.totalPrice+=basketItem.totalPrice
+        basketItem.totalPrice+=basketItem.price
         setBasket([...basket])
       }
       else{
